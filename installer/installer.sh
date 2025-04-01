@@ -18,7 +18,7 @@ random_string() {
 
 # Configure the following variables in advance for your environment
 ## required settings - please change all of these, failing to do so will result in a non-working installation or a highly insecure installation
-PASSWORD="HDrvqOrZ!q"
+PASSWORD="*******"
 MISP_DOMAIN='misp.local'
 PATH_TO_SSL_CERT=''
 INSTALL_SSDEEP='n' # y/n, if you want to install ssdeep, set to 'y', however, this will require the installation of make
@@ -30,11 +30,11 @@ APACHE_USER='www-data'
 ### DB settings, if you want to use a different DB host, name, user, or password, please change these
 DBHOST='localhost'
 DBUSER_ADMIN='root'
-DBPASSWORD_ADMIN='M+j2Av/h5;' # Default on Ubuntu is a passwordless root account, if you have changed it, please set it here
+DBPASSWORD_ADMIN='*******;' # Default on Ubuntu is a passwordless root account, if you have changed it, please set it here
 DBNAME='misp'
 DBPORT='3306'
 DBUSER_MISP='misp'
-DBPASSWORD_MISP="HDrvqOrZ!q"
+DBPASSWORD_MISP="*******"
 
 ### Supervisor settings
 SUPERVISOR_USER='supervisor'
